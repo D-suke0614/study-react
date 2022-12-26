@@ -5,7 +5,7 @@ export function Headline(props) {
   return (
     <>
       <div className={styles.description}>
-        <p>{props.title}</p>
+        <p>{props.title} page</p>
         <p>
           Get started by editing&nbsp;
           {props.children}
