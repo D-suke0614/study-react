@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Links() {
+export function Links() {
   return (
     <div>
       <div className={styles.center}>
