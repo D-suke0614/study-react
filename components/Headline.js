@@ -1,8 +1,5 @@
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export function Headline(props) {
   return (
@@ -11,7 +8,7 @@ export function Headline(props) {
         <p>{props.title}</p>
         <p>
           Get started by editing&nbsp;
-          <code className={styles.code}>pages/{props.page}.js</code>
+          {props.children}
         </p>
         <div>
           <a
