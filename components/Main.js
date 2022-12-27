@@ -11,7 +11,6 @@ export function Main(props) {
         >
           {<code className={styles.code}>pages/{props.page}.js</code>}
         </Headline>
-
         <Links />
       </main>
     </>
